@@ -37,6 +37,8 @@ cd /var/www/html/wordpress
 cp wp-config-sample.php wp-config.php
 '''
 '''bash
+
+'''bash
 sed -i "s/database_name_here/wordpress/" wp-config.php
 '''
 '''bash
